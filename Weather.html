@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/axios@1.1.2/dist/axios.min.js"></script>
+    <title>My Weather Application</title>
+    <link rel="stylesheet" href="project-style.css" />
+  </head>
+  <body>
+    <div class="contents">
+      <header>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter a City.."
+            class="search"
+            style="padding: 20px"
+            id="input-button"
+          />
+          <input type="submit" value="Search" class="button" />
+        </form>
+      </header>
+      <div class="weather">
+        <div class="cities">
+          <h1>New Delhi</h1>
+          <p>
+            <span class="day">Thursday</span> <span class="hr">15</span>:<span
+              class="min"
+              >32</span
+            >, Moderate rain<br />
+            Humidity: <strong>43%</strong>, Wind:
+            <strong>10km/h</strong>
+          </p>
+        </div>
+        <div class="temp">
+          <span class="current-temperature-icon">☀️</span>
+          <span class="current-temperature-value" id="tempNew">24</span>
+          <span class="current-temperature-unit">°C</span>
+        </div>
+      </div>
+      <footer>
+        <p>
+          This page was coded by
+          <a href="https://github.com/Shivika2934" link="">Shivika Mittal</a>
+          and is on
+          <a href="https://github.com/Shivika2934/weather">Github</a> and hosted
+          on <a href="#">Netlify</a>
+        </p>
+      </footer>
+    </div>
+    <script src="project-java.js"></script>
+  </body>
+</html>
